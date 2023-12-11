@@ -1,0 +1,33 @@
+/*///////////////////////////////////// RODAPÉ //////////////////////////////////////////*/
+#rodape {
+    /* width: 100vw; */
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    font-size: 18px;
+    background-color: #65008a;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+#img {
+    padding: 10px;
+    text-align: center;
+}
+
+#img img {
+    width: 50px;
+}
+
+#textobaixo {
+    font-style: oblique;
+    font-family: cursive;
+    font-size: 13px;
+    line-height: 3px;
+    color: rgb(255, 255, 255);
+}
+
+#anobaixo {
+    font-style: oblique;
+    padding-top: 3px;
+    font-size: 10px;
+}

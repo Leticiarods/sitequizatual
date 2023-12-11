@@ -1,0 +1,106 @@
+body{
+    background-image: url("/fundo.png");
+    background-position: center;
+}
+
+#pont{
+    background-color: rgb(114, 3, 154);
+    box-shadow: 0 0 15px rgba(3, 3, 3, 0.863);
+    border-radius: 15px;
+    margin-top: -10vh;
+    padding: 20px;
+    width: 64vw;
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+/*////////////////////////////// BOTOES /////////////////////////////*/
+#botoes{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+/*/////////////////////////// CAIXA DE TEXTO ////////////////////////*/
+#insira{
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 15px;
+    height: 4.5vh;
+    width: 25vw;
+    margin-left: 10px;
+    padding-left: 15px;
+    box-shadow: 0 0 6px rgb(3, 3, 3);
+    background-color: rgba(254, 254, 254, 0.94);
+}
+
+#novouser{
+    cursor: pointer;
+    height: 5vh;
+    font-size: 2vh;
+    border-radius: 50px;
+    font-family: cursive;
+    box-shadow: 0 0 6px rgb(3, 3, 3);
+}
+#limpar{
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: cursive;
+    height: 5vh;
+    font-size: 2vh;
+    margin-left: 10px;
+    box-shadow: 0 0 6px rgb(3, 3, 3);
+}
+#salvar{
+    cursor: pointer;
+    height: 5vh;
+    font-size: 2vh;
+    border-radius: 50px;
+    font-family: cursive;
+    margin-left: 5px;
+    box-shadow: 0 0 6px rgb(3, 3, 3);
+}
+
+#ir{
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: cursive;
+    height: 5vh;
+    font-size: 2vh;
+    margin-top: 15px;
+    margin-left: 23vw;
+    box-shadow: 0 0 6px rgb(3, 3, 3);
+}
+
+/*/////////////////////////////////////// LISTA //////////////////////////*/
+#dados{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+#nomes{
+    font-family: cursive;
+    border-radius: 50px;
+    width: 28vw;
+    padding: 3px;
+    background-color: rgba(254, 254, 254, 0.94);
+    box-shadow: 0 0 5px rgb(3, 3, 3);
+}
+
+#lapis,
+#delete{
+    cursor: pointer;
+    float: right;
+    padding-top: 3px;
+    margin-right: 10px;
+}
+
+#delete{
+    margin-left: 5px;
+}

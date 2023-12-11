@@ -1,0 +1,85 @@
+/*/////////////////////////////////// FUNDO //////////////////////////////////////////*/
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(180deg, #cd77f5, rgb(134, 0, 196));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    position: fixed;
+}
+
+main {
+    flex-grow: 1;
+}
+
+/*/////////////////////////////////// CABEÇALHO //////////////////////////////////////////*/
+#cabeça {
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #65008a;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.638);
+    list-style-type: none;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+#menu{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#principal{
+    cursor: pointer;
+    font-family: cursive;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.401);
+}
+
+#sobre {
+    cursor: pointer;
+    font-family: cursive;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.401);
+}
+
+#conta {
+    cursor: pointer;
+    position: absolute;
+    right: 80px;
+    font-family: cursive;
+    padding-left: 20px;
+    text-align: left;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.401);
+}
+
+#iconta {
+    width: 15px;
+    margin-left: 10px;
+}
